@@ -10,5 +10,8 @@ apt-get update
 apt-get upgrade
 apt-get dist-upgrade
 
+echo 'configure screen'
+chmod 777 /var/run/screen/
+
 echo 'finish'
 
